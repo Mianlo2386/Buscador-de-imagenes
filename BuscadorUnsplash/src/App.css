@@ -1,0 +1,55 @@
+* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} 
+.CajaDeBusqueda {
+  width: 60%;
+  margin: auto;
+  padding: 25px;
+  margin: auto;
+  color: black;
+  display: flex;
+}
+.CajaDeBusqueda .CajaDeBusqueda--input {
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid grey;
+
+}
+.CajaDeBusqueda .CajaDeBusqueda--btn {
+  width: 20%;
+  color: grey;
+  padding: 10px;
+  border: 0;
+  border-bottom: 2px solid grey;
+  background-color: transparent;
+}
+.CajaDeBusqueda .CajaDeBusqueda--btn i {
+  cursor: pointer;
+}
+.contenido {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+  /* margin: auto; */
+}
+.contenido .contenido-grid {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  gap: 1rem; 
+}
+.contenido .contenido-grid img {
+  width: 300px;
+  
+  /* max-width: 100%; */
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+}

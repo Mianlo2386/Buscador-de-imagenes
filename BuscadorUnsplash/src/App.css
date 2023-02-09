@@ -37,19 +37,11 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
-  
-  /* margin: auto; */
 }
 .contenido .contenido-grid {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr); */
   gap: 1rem; 
 }
 .contenido .contenido-grid img {
   width: 300px;
-  
-  /* max-width: 100%; */
   aspect-ratio: 1;
-  object-fit: cover;
-  object-position: center;
 }
